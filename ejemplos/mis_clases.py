@@ -8,6 +8,21 @@
 
 # clase 01
 
+class Persona:
 
+    def __init__(self, nombre, edad):
+        self.nombre = nombre
+        self.edad = edad
 
-# clase 02
+    #def mostrar_datos(self):
+     #   print(f"Nombre: {self.nombre}\nEdad: {self.edad}\n")
+
+class Compra:
+    def __init__(self, producto, preciop, cantidad):
+        self.nombre = producto
+        self.precio = preciop
+        self.cantidad = cantidad
+
+    def calcular_precio_total(self):
+        return self.precio * self.cantidad
+
